@@ -59,15 +59,15 @@ const Header = () => {
                     : "lg:text-n-1/50"
                 } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
-                {item.title}
+                {/* {item.title} */}
               </a>
             ))}
           </div>
 
-          <HamburgerMenu />
+          {/* <HamburgerMenu /> */}
         </nav>
 
-        <a
+        {/* <a
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
@@ -75,15 +75,15 @@ const Header = () => {
         </a>
         <Button className="hidden lg:flex" href="#login">
           Sign in
-        </Button>
+        </Button> */}
 
-        <Button
+        {/* <Button
           className="ml-auto lg:hidden"
           px="px-3"
           onClick={toggleNavigation}
         >
           <MenuSvg openNavigation={openNavigation} />
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
